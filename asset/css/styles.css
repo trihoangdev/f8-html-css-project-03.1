@@ -12,6 +12,7 @@ body {
   --primary-color: #143c3c;
   --primary-color-black: #152427;
   --primary-color-gray: #575d5e;
+  --scondery-color-light-green: #e2eddf;
   --text-color: #7d8188;
   --bg-color: #fff;
   font-size: 1.6rem;
@@ -249,4 +250,59 @@ a {
 .hero__img:nth-child(2) {
   position: relative;
   bottom: calc(-1 * var(--padding-bottom-img));
+}
+
+/* =========== Partner ============ */
+.partner {
+  padding: 42px;
+}
+
+.partner__body {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-one);
+  align-items: center;
+  padding: 76px 121px;
+  border-radius: 100.5px;
+  background: var(--scondery-color-light-green);
+}
+
+.logo__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__text--color {
+  color: var(--primary-color);
+}
+
+.partner__google {
+  font-size: 3.1rem;
+  font-weight: 500;
+}
+
+.slack__text {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.agwolrd__text {
+  margin-left: 11px;
+  font-size: 2.6rem;
+  font-weight: 400;
+}
+
+.partner__riotino {
+  font-family: "Sonsie One";
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+.heroku__text {
+  margin-left: 14px;
+  font-size: 1.9rem;
+  font-weight: 600;
+  letter-spacing: 1.995px;
 }
