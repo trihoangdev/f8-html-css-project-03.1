@@ -650,3 +650,124 @@ a {
   font-weight: 500;
   line-height: 1.71;
 }
+
+/* ========= process ==========  */
+.process {
+  margin: 40px 0;
+  padding: 36px 0;
+}
+
+.process__heading {
+  max-width: 42%;
+}
+
+.process__heading::after {
+  content: "";
+  display: block;
+  position: relative;
+  left: 420px;
+  bottom: 18px;
+  width: 66px;
+  height: 3px;
+  background: #000;
+}
+
+.process__rows {
+  margin-top: 81px;
+}
+
+.process__row {
+  padding: 55px 41px 55px 20px;
+  border-radius: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #83a17d;
+  transition: 0.25s;
+}
+
+.process-step__link {
+  position: relative;
+  color: --primary-color-gray;
+  font-family: var(--font-one);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.process__row:hover {
+  background-color: var(--scondery-color-light-green);
+}
+
+.process__step {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.process-step__number {
+  width: 150px;
+  color: var(--primary-color);
+  font-family: var(--font-one);
+  font-size: 7.2rem;
+  font-weight: 600;
+  line-height: 0.72;
+}
+
+.process-step__text {
+  position: relative;
+  width: 150px;
+  margin-left: auto;
+}
+
+.process-step__title {
+  color: var(--primary-color-black);
+  font-family: var(--font-one);
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.process-step__link {
+  position: absolute;
+  visibility: hidden;
+  text-decoration: underline;
+  top: 10px;
+  margin-top: 22px;
+  padding-left: 0;
+  color: var(--text-color);
+  font-family: var(--font-one);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.process__row:hover .process-step__link {
+  visibility: visible;
+}
+
+.process__content {
+  position: relative;
+  max-width: 50%;
+}
+
+.process__desc {
+  color: var(--text-color);
+  font-family: var(--font-two);
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.56;
+}
+
+.process__desc--hidden {
+  visibility: hidden;
+}
+
+.process__img {
+  position: absolute;
+  bottom: -55px;
+  right: 92px;
+  width: 450px;
+  height: 444px;
+  object-fit: cover;
+}
