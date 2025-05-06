@@ -946,6 +946,7 @@ a {
 /* ======== Blog ========== */
 .blog {
   margin: 64px 0 52px;
+  padding: 50px 0;
 }
 
 .blog__header {
@@ -998,11 +999,7 @@ a {
 }
 
 .blog-item__content {
-  padding: 26px 14px 12px 0;
-}
-
-.blog-item:hover .blog-item__content {
-  padding: 26px 14px 12px 30px;
+  padding: 26px 14px 12px 0px;
 }
 
 .blog-item__category {
